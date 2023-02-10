@@ -12,7 +12,7 @@ const (
 	blockSize = 512
 
 	// Default buffer is 8KB (2 pages).
-	defaultBufSize = 8192
+	defaultBufSize = 4096
 )
 
 // align returns an offset for alignment.
